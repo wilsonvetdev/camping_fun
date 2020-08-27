@@ -27,8 +27,8 @@ ActiveRecord::Schema.define(version: 2020_08_27_200038) do
   end
 
   create_table "signups", force: :cascade do |t|
-    t.integer "camper"
-    t.integer "activity"
+    t.integer "camper_id"
+    t.integer "activity_id"
     t.integer "time"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
