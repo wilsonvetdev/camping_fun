@@ -1,3 +1,7 @@
+Camper.destroy_all 
+Activity.destroy_all
+Signup.destroy_all
+
 camper1 = Camper.create(name: 'Caitlin',age: 8)
 camper2 = Camper.create(name: 'Lizzie', age: 9)
 camper3 = Camper.create(name: 'Tom', age: 12)
@@ -30,3 +34,4 @@ Signup.create(camper: camper3, activity: activity4, time: 16)
 Signup.create(camper: camper4, activity: activity8, time: 16)
 Signup.create(camper: camper5, activity: activity7, time: 11)
 Signup.create(camper: camper3, activity: activity4, time: 12)
+

@@ -1,3 +1,12 @@
 <h1> <%= @camper.name %> - <%= @camper.age %> </h1>
+<h2> The camper's activities:</h2>
+
+<ul>
+    <% @camper.activities.map do |activity_var|%>
+    
+        <li> <%= activity_var.name %> </li>
+    <%end%>
+
+</ul>
 
 <%#we also need to show activities %>
